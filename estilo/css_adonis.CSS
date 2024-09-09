@@ -439,7 +439,7 @@ slider img{
 }
 
 #bue{
-    background-image: url("../IFREME-PROJECT/img/adones.jpg");
+    background-image: url("adones.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -470,7 +470,7 @@ height: 98px;
 }
 
 #tele{
-    background-image: url("../IFREME-PROJECT/img/BuIF7MU8i25Mgk7yDd3kZscfug.png");
+    background-image: url("img/BuIF7MU8i25Mgk7yDd3kZscfug.png");
     background-size: cover;
     background-repeat: no-repeat;
   background-position: center;
@@ -641,7 +641,7 @@ height: 98px;
 
 
 #card1{
-    background-image: url("../IFREME-PROJECT/img/WhatsApp\ Image\ 2024-07-19\ at\ 14.45.19.jpeg");
+    background-image: url("img/WhatsApp\ Image\ 2024-07-19\ at\ 14.45.19.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
   background-position: center;
@@ -732,13 +732,12 @@ z-index: 100000;
     width:15px;
     height: 15px;
     pointer-events: none; 
-    margin-left: 10px;
+    margin-left: 17  px;
     box-shadow: 0 0 20px  rgb(36, 137, 25),
                 0 0 20px  rgb(36, 137, 25),
                 0 0 20px  rgb(36, 137, 25);
     animation: colors 5s linear;            
   }
-  
   @keyframes colors{
   
       0%{
