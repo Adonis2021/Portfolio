@@ -1,0 +1,622 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+body{
+    background-color: #fff;
+
+}
+
+.nav-bar {
+   margin-left: 700px;
+   padding: 1rem 10rem;
+   justify-content: space-between;
+  font-optical-sizing: auto;
+}
+
+.language {
+    position: relative;
+}
+
+.language-selete{
+    display: flex;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background-image: url(https://flagsapi.com/PT/flat/64.png);
+    background-size: contain;
+    margin-top: -2px;
+    margin-left: 38px;
+    
+}
+
+
+.language ul{
+    position: absolute;
+    width: 140px;
+    background-color: #fff;
+    border: 1px solid #F6F6F6;
+    padding-top: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0, 5);
+    display: none;
+}
+.language ul li{
+    list-style: none;
+}
+
+.language ul li a{
+    display: block;
+    color: #252525;
+    padding-top: 5px 10px;
+}
+.language ul li:hover{
+    background-color: #F6F6F6;
+}
+.language ul li:before{
+    content:'';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+a.br:before{
+    background-image: url(https://flagsapi.com/BR/flat/64.png);
+}
+a.en:before{
+    background-image: url(https://flagsapi.com/US/flat/64.png);
+}
+.language:hover ul{
+    display: block;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+h1{
+    color: #fff;
+}
+
+
+
+
+.in {
+    background-color: #fff;
+    margin-top: 10px;
+}
+.apre h2{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-size: 46px;
+ 
+}
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.nav-item{
+    margin: 0 15px;
+}
+
+.foto{
+    position: relative;
+    margin-left: -60px;
+    margin-top: -5px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 1.15rem;
+    color:#fff;
+    font-weight: 400;
+}
+.nav-link:hover{
+   color: #1d705d;
+}
+
+.login-button button{
+    border: none;
+    background-color:#0187a7 ;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+}
+.nav-list {
+    margin-top: -30px;
+}
+
+
+.login-button a {
+    text-decoration: none;
+    color:#fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.mobile-menu-icon{
+    display: none;
+} 
+.mobile-menu {
+    display: none;
+}
+
+
+
+.p{
+position: relative;
+top: 10px;
+left: 19px;
+}
+.conta{
+    position: relative;top: 45px;  text-decoration: none;
+    background-color: rgba(235, 171, 52, 0.871);
+    border-radius: 27px;
+    color: black;
+    padding: 18px;
+    text-align: center;
+    margin-right: 45px;
+    font-size: 18px;
+    height: 300px;text-align: center;
+ 
+}
+#p{
+    position: relative;
+    right: 415px;
+}
+   
+
+
+.text{
+    
+    text-align: left;
+    justify-content: left;
+    margin-top: 105px;
+    flex: 3px solid red;
+    width: 703px;
+    height: 300px;
+    margin-left: 160px;
+   font-size: 25px;
+}
+.para{
+    color: #464646;
+    margin-top: 45px;
+    justify-content: left;
+    text-align: left;
+}
+.img{
+    text-align: right;
+    font-size: 13px;
+    border-radius: 15px;
+}
+.pro{
+    text-align: left;
+    justify-content: left;
+    margin-right: 13px;
+    color: black;
+    
+}
+
+#vou{
+float: right;
+margin-right: 340px;
+margin-top: 105px;
+    
+}
+
+.menus{
+    display: flex;
+    text-decoration: none;
+    font-size: 16px;
+    list-style: none;
+    margin-top: 20px;
+
+}
+.menus li:hover{
+
+    font-weight: 700;
+    color: #1d705d;
+}
+
+
+#resume{
+    color: rgb(24, 23, 23);
+  margin-right: 1500px;
+   text-decoration-line: underline;
+}
+
+
+
+.las{
+    text-align: center;
+    margin-left:158px;
+    margin-right:100px;
+    font-size: 21px;
+    color: #5e5b5b;
+   display: inline-block;
+   margin-left: 85px;
+   margin-bottom: 195px;
+}
+.ul{
+    margin-left: 95px;
+    margin-bottom: 45px;
+}
+#ult{
+margin-right: 9px;
+margin-left: 780px;
+
+}
+#move{
+    float: top;
+}
+#fundo{
+    background-image: url("img/Opera Instantâneo_2024-04-10_000848_johntrampe.framer.website (2) - Cópia.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-color: gray;
+}
+.conta{
+    text-decoration: none;
+    background-color: rgba(235, 171, 52, 0.871);
+    border-radius: 27px;
+    color: black;
+    padding: 18px;
+    text-align: center;
+    width: 700px;
+    font-size: 18px;
+    height: 300px;
+    position: relative;
+    left: 634px;
+    top: 38px;
+    
+}
+.os{
+    background-image: url("../IFREME-PROJECT/img/MJfrF7QESvkAjN6juPPp5m7Vpug.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.as{
+    background-image: url("../IFREME-PROJECT/img/img/Opera Instantâneo_2024-04-01_010700_johntrampe.framer.website.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.slider img{
+    height: 59px;
+   margin-right: 10px;
+  margin-left: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.slider{
+    overflow: hidden;
+    width: 90%;
+    position:relative;
+    margin:auto;
+    height:250px;
+    display:grid;
+   place-items:center;
+
+}
+
+.slide{
+    height:100px;
+    width:100px;
+    display:flex;
+    align-items:center;
+    padding:10px;
+    border-radius: 50%;
+    background-color: rgba(234, 234, 234, 0.222);
+    margin-left: 74px;
+    overflow: hidden;
+}
+slider img{
+    background-color: gray;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.slider-track{
+    display:flex;
+    animation: scroll 40s linear infinite;
+}
+
+.slider::before,
+.slider::after{
+    content:"";
+    height:100%;
+    position:absolute;
+    width:15%;
+    z-index:2;
+}
+.slider::before{
+    left: 0;
+    top: 0;
+}
+.slider::after{ 
+    right: 0;
+    top: 0 ;
+    transform: rotateZ(100deg);
+}
+
+@keyframes  scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px * 9));
+    }
+}
+
+#bue{
+    background-image: url("../IFREME-PROJECT/img/adones.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+ 
+}
+#mbambe{
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+}
+.branco{
+  background: radial-gradien(  rgba(83, 193, 248, 0.275),rgba(106, 27, 27, 0.1), rgba(193, 8, 147, 0.193),rgba(96, 198, 224, 0.286));
+
+height: 98px;
+   background-color: white;
+   box-shadow: 0px 0px 2px #00000038;
+}
+@keyframes animate{
+     0%{
+        background-position: 0 95%;
+     }   
+    50%{
+        background-position:  100% 20%;
+    }
+    100%{
+        background-position: 0  95%;
+    }
+}
+
+#tele{
+    background-image: url("../IFREME-PROJECT/img/BuIF7MU8i25Mgk7yDd3kZscfug.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  background-position: center;
+  width: 69px;
+  height: 69px;
+}
+
+.esquerdo{
+    margin-top: 100px;
+}
+
+.numeros{
+    margin-left: 550px;
+    margin-top: 50px;
+}
+.numeros li {
+    list-style: none;
+}
+
+
+.se_numero  li {
+    list-style: none;
+}
+ .prob {
+    padding-left: 10px;
+    margin-top: 100px;
+ }
+
+.resto_corpo{
+    background-color: #30426A;
+    color: #fff;
+    padding-top: 90px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 120px;
+}
+.resto1{
+
+    padding-top: 30px;
+    padding-bottom: 90px;
+    padding-left: 0px;
+}
+.resto2{
+    background-color: #30426A;
+    color: #fff;
+    margin-left: -60px;
+    padding-top: 90px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 120px;
+}
+.resto3{
+
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+
+.resto4{
+    background-color: #30426A;
+    color: #fff;
+    margin-left: 60px;
+    margin-top: -10px;
+    margin-left: -60px;
+    padding-top: 90px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 120px;
+}
+
+.resto_corpo  li  {
+    background: #D9D9D9;
+    color: #252525;
+    font-size: 24pt;
+    padding: 60px;
+    display: inline;
+    }
+.resto  {
+    padding-top: 60px;
+    padding-left: 60px;
+ }
+    
+
+#logo_adonis{
+    background-image: url("../IFREME-PROJECT/img/Adonis_LOGO.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.projectos{
+    margin-top: 75px;
+    background: #F2F2F2; ;
+    color: #5e5b5b;
+    padding-top: 600px;
+    padding-left: 900px ;
+    display: inline-block;
+}
+
+.projectos li{
+    list-style: none;
+}
+
+.projecto1{
+    margin-top: -550px;
+    margin-left: -500px;
+
+}
+
+.projecto2{
+    margin-top: 60px;
+    margin-left: -500px;
+
+}
+
+.projecto3{
+    margin-top: 60px;
+    margin-left: -500px;
+    
+}
+
+.projecto4{
+    margin-top: 30px;
+    margin-left: -500px;
+    margin-bottom: 60px;
+    
+}
+.habilidades {
+    background-color: #fff;
+    width: 1400px;
+    height: 500px;
+    padding-left: 70px;
+    padding-top: 46px;
+}
+
+.habilidades li{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-optical-sizing: auto;
+    font-style: normal;
+    list-style: none;
+    display:block;
+}
+
+.habilidadesSec{
+    background-color: #fff;
+    width: 1400px;
+    height: 350px;
+    padding-left: 800px;
+    margin-top: -400px;
+}
+.habilidadesSec li{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-optical-sizing: auto;
+    font-style: normal;
+    list-style: none;
+    display:block;
+}
+
+.redes{
+    margin-top: -180px;
+    
+}
+.redes li{
+    list-style: none;
+    display:inline;
+    margin: 0px;
+}
+
+.Downloads {
+    padding-left:70px;
+    margin-top: -190px;
+    display:flex;
+}
+
+.Downloads li{
+    list-style: none;
+    color: #fff;
+}
+.rodape {
+    background-color: #1d705d;
+    width: 1400px;
+    height: 400px;
+    padding: 60px;
+    margin: 0px;
+}
+
+.go{
+    padding-left: 70px;
+    padding-top: 30px;
+}
+.air{
+    padding-left: 70px;
+    padding-top: 150px;
+}
+.iar{
+    padding-left: 0px;
+    padding-top: 50px;
+}
+.iarr{
+    padding-left: 0px;
+    padding-top: 50px;
+}
+.iarrr{
+    padding-left: 0px;
+    padding-top: 50px;
+}
+.ra{
+    padding-left: 70px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+.corpo{
+    padding: 60px;
+}
+.meio{
+    margin-left: 500px;
+    font-size: 18pt;
+    color: #252525;
+}
+
+

@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@media  (max-width:750px) {
+    
+    .br{
+        display: none;
+        
+    }
+
+}
