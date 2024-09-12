@@ -86,12 +86,22 @@ h1{
     color: #fff;
 }
 
+.imag{
+    
+    margin-top: 40px;
+    
+}
 .apre{
     margin-left: 60px;
     margin-top: 100px; 
     width: 1000px;
     font-size: 30pt;
 }
+.apre p {
+    color: #484848;
+    font-size: 18pt;
+}
+
 .apres{
     margin-left: 500px;
     margin-top: -540px; 
@@ -141,6 +151,7 @@ h1{
 }
 .nav-list {
     margin-top: -30px;
+    margin-left: -1700px;
 }
 
 
@@ -156,97 +167,6 @@ h1{
 .mobile-menu {
     display: none;
 }
-
-
-
-@media screen and (max-width:730px){
-    .nav-bar{
-       padding: 1.5rem 4rem;
-    }   
-   
-   .nav-item{
-       display:none ;
-   }
-   .login-button {
-       display: none;
-   }
-   .mobile-menu-icon{
-       display: block;
-   }
-   .mobile-menu-icon button {
-       background-color: transparent;
-       border: none;
-       cursor: pointer;
-   }
-   .mobile-menu ul a{
-       display: flex;
-       flex-direction: column;
-       text-align: center;
-       padding: 1px 2px ;
-      color: black;
-      margin-right: 240px;
-   }
-   .mobile-menu .nav-item{
-       display: block;
-       padding: top 2.2rem;
-       
-      
-   }
-   .mobile-menu .login-button{
-       display: block;
-       padding: 2rem 2rem;  
-   }
-   .mobile-menu .login-button button{
-       width: 100%;
-   }
-   .open
-   {
-      display: block;
-   }
-
-
-.oculto{
-    display: none;
-}
-section {
-    flex-direction: column;
-}
-#bue{
-   position: relative;
-   left: 145px;
-   bottom: 220px;
-   margin-bottom: 67px;
-   
-}
-.slide{
-margin-top: 156px;
-
-}
-
-.p{
-position: relative;
-top: 10px;
-left: 19px;
-}
-.conta{
-    position: relative;top: 45px;  text-decoration: none;
-    background-color: rgba(235, 171, 52, 0.871);
-    border-radius: 27px;
-    color: black;
-    padding: 18px;
-    text-align: center;
-    margin-right: 45px;
-    font-size: 18px;
-    height: 300px;text-align: center;
- 
-}
-#p{
-    position: relative;
-    right: 415px;
-}
-   }
-
-
 
 
 
@@ -289,16 +209,18 @@ margin-top: 105px;
 
 .menus{
     display: flex;
-    text-decoration: none;
+    align-items: center;
+  
     font-size: 16px;
     list-style: none;
-    margin-top: 20px;
+    margin-top: -20px;
 
 }
-.menus li:hover{
 
-    font-weight: 700;
+.menus li:hover{
     color: #1d705d;
+    font-weight: 700;
+    
 }
 
 
@@ -451,11 +373,10 @@ slider img{
     bottom: 15px;
 }
 .branco{
-  background: radial-gradien(  rgba(83, 193, 248, 0.275),rgba(106, 27, 27, 0.1), rgba(193, 8, 147, 0.193),rgba(96, 198, 224, 0.286));
-
-height: 98px;
-   background-color: white;
-   box-shadow: 0px 0px 1px #00000038;
+    height: 98px;
+    
+    background-color: white;
+    box-shadow: 0px 0px 1px #00000038;
 }
 @keyframes animate{
      0%{
@@ -498,7 +419,7 @@ height: 98px;
     background: #F2F2F2; ;
     color: #5e5b5b;
     padding-top: 600px;
-    padding-left: 900px ;
+    padding-left: 765px ;
     display: inline-block;
 }
 
@@ -508,31 +429,31 @@ height: 98px;
 
 .projecto1{
     margin-top: -550px;
-    margin-left: -500px;
+    margin-left: -400px;
 
 }
 
 .projecto2{
     margin-top: 60px;
-    margin-left: -500px;
+    margin-left: -400px;
 
 }
 
 .projecto3{
     margin-top: 60px;
-    margin-left: -500px;
+    margin-left: -400px;
     
 }
 
 .projecto4{
-    margin-top: 30px;
-    margin-left: -500px;
+    margin-top: 60px;
+    margin-left: -400px;
     margin-bottom: 60px;
     
 }
 .habilidades {
     background-color: #fff;
-    width: 1400px;
+    width: 1340px;
     height: 500px;
     padding-left: 70px;
     padding-top: 46px;
@@ -549,10 +470,11 @@ height: 98px;
 
 .habilidadesSec{
     background-color: #fff;
-    width: 1400px;
+    width: 1340px;
     height: 350px;
     padding-left: 800px;
     margin-top: -400px;
+    
 }
 .habilidadesSec li{
     font-family: "Montserrat", sans-serif;
@@ -585,7 +507,7 @@ height: 98px;
 }
 .rodape {
     background-color: #1d705d;
-    width: 1400px;
+    width: 1340px;
     height: 400px;
     padding: 60px;
     margin: 0px;

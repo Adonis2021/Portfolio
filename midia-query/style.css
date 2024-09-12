@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@media (max-width:750px) {
+    .imag{
+        
+        padding: 10px;
+        margin-left: 320px;
+        
+    }
+}
+   
+@media (max-width:375px) {
+    .imag{
+        padding: 10px;
+        margin-left: 170px;
+        height: 40px;
+    }
+
+  .projectos img{
+    height: 250px;
+    width: 300px;
+
+  }
+
+    .menus{
+        display: none;
+    }
+    .apre h2{
+        text-align: center;
+        font-size: 18pt;
+        margin-left: -800px;
+        
+    }
+    .apre p{
+        display: none;
+        
+    }
+    #bue {
+        display: none;
+    }
+    .empresas{
+        display: none;
+    }
+}
