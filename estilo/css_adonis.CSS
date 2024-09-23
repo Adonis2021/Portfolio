@@ -59,8 +59,8 @@ body{
 .language ul li:before{
     content:'';
     display: inline-block;
-    width: 25px;
-    height: 25px;
+    width: 15px;
+    height: 15px;
     background-size: contain;
     background-repeat: no-repeat;
     vertical-align: middle;
@@ -68,7 +68,7 @@ body{
 }
 
 a.br:before{
-    background-image: url(https://flagsapi.com/BR/flat/64.png);
+    background-image: url(https://flagsapi.com/PT/flat/64.png);
 }
 a.en:before{
     background-image: url(https://flagsapi.com/US/flat/64.png);
@@ -210,7 +210,7 @@ margin-top: 105px;
 .menus{
     display: flex;
     align-items: center;
-  
+    
     font-size: 16px;
     list-style: none;
     margin-top: -20px;
@@ -419,7 +419,7 @@ slider img{
     background: #F2F2F2; ;
     color: #5e5b5b;
     padding-top: 600px;
-    padding-left: 765px ;
+    padding-left: 785px ;
     display: inline-block;
 }
 
