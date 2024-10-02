@@ -426,7 +426,7 @@ height: 98px;
  }
 
 .resto_corpo{
-    background-color: #30426A;
+    background-color: #371C45;
     color: #fff;
     padding-top: 90px;
     padding-left: 60px;
@@ -440,7 +440,7 @@ height: 98px;
     padding-left: 0px;
 }
 .resto2{
-    background-color: #30426A;
+    background-color: #371C45;
     color: #fff;
     margin-left: -60px;
     padding-top: 90px;
@@ -456,7 +456,7 @@ height: 98px;
 
 
 .resto4{
-    background-color: #30426A;
+    background-color: #371C45;
     color: #fff;
     margin-left: 60px;
     margin-top: -10px;
@@ -468,10 +468,11 @@ height: 98px;
 }
 
 .resto_corpo  li  {
-    background: #D9D9D9;
+    border-radius: 15px;
+    background: #FEA713;
     color: #252525;
     font-size: 24pt;
-    padding: 60px;
+    padding: 40px;
     display: inline;
     }
 .resto  {
