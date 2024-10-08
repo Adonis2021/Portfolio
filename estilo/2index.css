@@ -3,9 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'inter',sans-serif;
+    content: 100%;
 }
 body{
     background-color: gray;
+    content: 100%;
 }
 header{
     background-color: #24252a;

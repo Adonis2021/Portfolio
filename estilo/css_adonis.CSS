@@ -3,17 +3,18 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
+    content: 100%;
 }
 
 
 body{
     background-color: #F6F6F6;
-
+    content: 100%;
 }
 
 .nav-bar {
    margin-left: 700px;
-   padding: 1rem 10rem;
+   padding: 4rem 10rem;
    justify-content: space-between;
   font-optical-sizing: auto;
 }
@@ -86,11 +87,7 @@ h1{
     color: #fff;
 }
 
-.imag{
-    
-    margin-top: 40px;
-    
-}
+
 .apre{
     margin-left: 60px;
     margin-top: 100px; 
@@ -123,10 +120,10 @@ h1{
     font-size: 46px;
  
 }
-.nav-list ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
+.branco ul {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 60px;
 }
 .nav-item{
     margin: 0 15px;
@@ -415,6 +412,7 @@ slider img{
 }
 
 .projectos{
+    content: 100%;
     margin-top: 75px;
     background: #F2F2F2; ;
     color: #5e5b5b;
@@ -453,10 +451,11 @@ slider img{
 }
 .habilidades {
     background-color: #fff;
-    width: 1340px;
+    
     height: 500px;
     padding-left: 70px;
     padding-top: 46px;
+    content: 100%;
 }
 
 .habilidades li{
@@ -507,7 +506,7 @@ slider img{
 }
 .rodape {
     background-color: #1d705d;
-    width: 1340px;
+    width: 100%;
     height: 400px;
     padding: 60px;
     margin: 0px;
@@ -520,6 +519,7 @@ slider img{
 .air{
     padding-left: 70px;
     padding-top: 150px;
+    
 }
 .iar{
     padding-left: 0px;
